@@ -8,9 +8,9 @@ const pako = require('pako');
 
 var chunk = new ChunkColumn();
 
-const HOST = 'Hdvej.aternos.me';
-const PORT = 62765;
-const USERNAME = '000';
+const HOST = 'mc.mahibabrar.me';
+const PORT = 42931;
+const USERNAME = 'ServerBot';
 var entityId = null;
 var inventory = [];
 var heartLife = 20;
@@ -61,7 +61,7 @@ const client = bedrock.createClient({
 
     // Microsoft Authenication
     offline: true,
-    version: '1.21.30',
+    version: '1.21.20',
     skipPing: true
 });
 
